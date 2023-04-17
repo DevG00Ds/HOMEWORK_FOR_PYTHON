@@ -12,3 +12,8 @@ for i in range(number1):
     for j in range(number2):
         if number1 == i + j and number2 == i * j:
             print(i, j)
+            break
+    else:
+        continue
+
+    break
