@@ -15,5 +15,6 @@ for i in range(number1):
             break
     else:
         continue
-
     break
+else:
+    print(" Нет решения ")
