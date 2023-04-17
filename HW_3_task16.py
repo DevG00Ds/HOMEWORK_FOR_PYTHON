@@ -17,12 +17,13 @@ from random import randint
 
 # N = [2, 1, 3, 5, 6, 3, 2, 6]
 N = [randint(1, 9) for i in range(10)]
+N_list = list(map(int, N))
 print(N)
 
 x = int(input(" Введите число поиска : "))
 count = 0
 for i in range(10):
-    if N[i] == x:
+    if N_list[i] == x:
         count += 1
 
 print(f"Число {x} встречается в списке {count} раз ")
