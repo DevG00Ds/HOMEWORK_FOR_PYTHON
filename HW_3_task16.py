@@ -16,13 +16,14 @@
 from random import randint
 
 # N = [2, 1, 3, 5, 6, 3, 2, 6]
-N = [randint(1, 9) for i in range(10)]
+number_lst = abs(int(input(" Введите кол-во элементов в массиве : ")))
+N = [randint(1, 9) for i in range(number_lst)]
 N_list = list(map(int, N))
 print(N)
 
 x = int(input(" Введите число поиска : "))
 count = 0
-for i in range(10):
+for i in range(number_lst):
     if N_list[i] == x:
         count += 1
 
