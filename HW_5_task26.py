@@ -18,4 +18,4 @@ def Mathpow(number_A, number_B):
 number_A = int(input("Введите число : "))
 number_B = int(input(" Введите его степень : "))
 
-print(' Результат : ', Mathpow(number_A, number_B))
+print('  Результат : ', Mathpow(number_A, number_B))

@@ -15,4 +15,6 @@ def Sum(number_a, number_b):
     return 1 + Sum(number_a, number_b - 1)
 
 
-print(Sum(2, 2))
+number_a = int(input(" Введите первое число : "))
+number_b = int(input(" Введите второе число : "))
+print(f" Результат :", Sum(number_a, number_b))
