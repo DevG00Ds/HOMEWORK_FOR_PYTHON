@@ -8,14 +8,14 @@
 
 
 
-def mathpow(number_A, number_B):
+def Mathpow(number_A, number_B):
     if (number_B == 1):
         return number_A
     if (number_B != 1):
-        return (number_A * mathpow(number_A, number_B - 1))
+        return (number_A * Mathpow(number_A, number_B - 1))
 
 
 number_A = int(input("Введите число : "))
 number_B = int(input(" Введите его степень : "))
 
-print(' Результат : ', mathpow(number_A, number_B))
+print(' Результат : ', Mathpow(number_A, number_B))
