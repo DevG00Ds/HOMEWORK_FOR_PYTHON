@@ -9,9 +9,9 @@
 
 
 def Mathpow(number_A, number_B):
-    if (number_B == 1):
+    if number_B == 1:
         return number_A
-    if (number_B != 1):
+    if number_B != 1:
         return (number_A * Mathpow(number_A, number_B - 1))
 
 
