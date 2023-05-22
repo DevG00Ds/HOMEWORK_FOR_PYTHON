@@ -11,8 +11,8 @@
 # **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да
 #     **Вывод:** Парам пам-пам
 
-def Vini_rhythm(str):
-    string = str.split()
+def Vini_rhythm(vini_word):
+    string = vini_word.split()
     new_list = []
     for word in string:
         result = 0
@@ -25,8 +25,8 @@ def Vini_rhythm(str):
 
 print('Введите : пара-ра-рам рам-пам-папам па-ра-па-да')
 
-str = input("Строка ввода : ")
-if Vini_rhythm(str):
+vini_word = input("Строка ввода : ")
+if Vini_rhythm(vini_word):
     print("Парам пам - пам")
 else:
     print("Пам парам")
